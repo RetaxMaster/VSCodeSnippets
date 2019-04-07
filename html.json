@@ -29,8 +29,12 @@
 			"<?php endif; ?>"
 		]
 	},
+	"Else PHP": {
+		"prefix": "else",
+		"body": "<?php else: ?>"
+	},
 	"For" : {
-		"prefix": "fo",
+		"prefix": "for",
 		"body": [
 			"<?php for(\\$x = $1; \\$x < $2; \\$x++): ?>",
 			"",

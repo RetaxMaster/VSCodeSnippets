@@ -1,5 +1,5 @@
 {
-	"Comentario de apertura y cierre" : {
+	"Comentario": {
 		"prefix": "com",
 		"body": [
 			"// $1",
@@ -7,9 +7,10 @@
 			"$2",
 			"",
 			"// -> $1"
-		]
+		],
+		"description": "Estructura de apertura y cierre de comentarios"
 	},
-	"Etiquetas php" : {
+	"EtiquetasPHP": {
 		"prefix": "php",
 		"body": [
 			"<?php",
@@ -17,6 +18,21 @@
 			"$1",
 			"",
 			"?>"
-		]
+		],
+		"description": "Apertura y cierre de etiquetas php."
+	},
+	"Require": {
+		"prefix": "req",
+		"body": "require(\"$1\");",
+		"description": "Require."
+	},
+	"pre": {
+		"prefix": "pr",
+		"body": [
+			"echo \"<pre>\";",
+			"var_dump($1);",
+			"echo \"</pre>\";"
+		],
+		"description": "Etiqueta pre para debug."
 	}
 }
