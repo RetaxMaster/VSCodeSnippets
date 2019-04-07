@@ -1,0 +1,12 @@
+{
+	"Comentario de apertura y cierre" :  {
+		"prefix": "com",
+		"body": [
+			"/* $1 */",
+			"",
+			"$2",
+			"",
+			"/* ->$1 */"
+		]
+	}
+}

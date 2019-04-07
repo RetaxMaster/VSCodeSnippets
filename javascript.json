@@ -1,0 +1,46 @@
+{
+	"Comentario de apertura y cierre" : {
+		"prefix": "com",
+		"body": [
+			"// $1",
+			"",
+			"$2",
+			"",
+			"// -> $1"
+		]
+	},
+	"document.ready" : {
+		"prefix": "read",
+		"body": [
+			"$(document).ready(function(){",
+			"",
+			"\t$1",
+			"",
+			"});"
+		]
+	},
+	"document.click" : {
+		"prefix": "click",
+		"body": [
+			"$(document).on(\"click\", \"${1:#}\", function(${2:e}){",
+			"",
+			"\t$3",
+			"",
+			"});"
+		]
+	},
+	"document.on" : {
+		"prefix": "on",
+		"body": [
+			"$(document).on(\"$1\", \"${2:#}\", function(${3:e}){",
+			"",
+			"\t$4",
+			"",
+			"});"
+		]
+	},
+	"$" : {
+		"prefix": "$",
+		"body": "$(\"${1:#}\").${2:val}(\"$3\"${4:, \"$5\"});"
+	}
+}

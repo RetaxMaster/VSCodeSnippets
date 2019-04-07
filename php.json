@@ -1,0 +1,22 @@
+{
+	"Comentario de apertura y cierre" : {
+		"prefix": "com",
+		"body": [
+			"// $1",
+			"",
+			"$2",
+			"",
+			"// -> $1"
+		]
+	},
+	"Etiquetas php" : {
+		"prefix": "php",
+		"body": [
+			"<?php",
+			"",
+			"$1",
+			"",
+			"?>"
+		]
+	}
+}
